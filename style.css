@@ -11,6 +11,9 @@ html {
   font-size: 62.5%;
 }
 
+
+/* Spinner section */
+
 .spinner-container {
   position: absolute;
   top: 0;
@@ -162,6 +165,8 @@ html {
   display: block;
 }
 
+/* Menu section */
+
 .hamburger-menu {
   width: 3rem;
   height: 3rem;
@@ -214,7 +219,7 @@ html {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-family: "Baloo Da 2", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   opacity: 0;
@@ -272,6 +277,9 @@ html {
   }
 }
 
+
+/*  Banner section */
+
 .banner {
   position: absolute;
   top: 30%;
@@ -292,9 +300,9 @@ html {
 }
 
 .banner p {
-  font-family: "Josefin Slab", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 5rem;
-  font-weight: 900;
+  font-weight: 600;
   color: rgb(0, 0, 0);
   width: 100%;
   letter-spacing: 0.1rem;
@@ -311,7 +319,7 @@ html {
   background-color: #fbff00;
   border: none;
   border-radius: 20px;
-  font-family: "Muli", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
@@ -364,7 +372,7 @@ html {
 }
 
 .menu-link {
-  font-family: "Baloo Da 2", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 4rem;
   color: #555;
   position: relative;
@@ -410,8 +418,12 @@ html {
 
 .social-media i:hover {
   background-color: #cefc00;
+  color: black;
 }
 
+
+
+/* About section */
 
 .about-us {
   width: 100%;
@@ -427,16 +439,16 @@ html {
 }
 
 .section-heading {
-  font-family: "Muli", serif;
+  font-family: 'Amiko', sans-serif;
   font-size: 5rem;
   font-weight: 300;
   color: #4b4b4b;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .underline {
   width: 12rem;
-  height: 0.3rem;
+  height: 0.4rem;
   background-color: #cefc00;
 }
 
@@ -497,7 +509,7 @@ html {
 }
 
 .service-header h3 {
-  font-family: "Baloo Da 2", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 2.6rem;
   line-height: 2.6rem;
   font-weight: 400;
@@ -505,7 +517,7 @@ html {
 }
 
 .service-text {
-  font-family: "Josefin Slab", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.6rem;
   text-align: justify;
 }
@@ -519,8 +531,12 @@ html {
 .about-us-img-wrapper img {
   width: 100%;
   object-fit: cover;
-  opacity: 0.8;
+  opacity: 0.9;
 }
+
+
+/* Team section */
+
 
 .team {
   display: flex;
@@ -582,7 +598,7 @@ html {
 }
 
 .card-info h2 {
-  font-family: "Baloo Da 2", serif;
+  font-family: 'Amiko', sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
   font-weight: 300;
@@ -590,15 +606,15 @@ html {
 }
 
 .card-info h3 {
-  font-family: "Muli", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 2rem;
   font-weight: 500;
-  color: #a52a2a;
+  color: #cefc00;
   margin-bottom: 1rem;
 }
 
 .card-info p {
-  font-family: "Baloo da 2", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.4rem;
   line-height: 1.6rem;
   font-weight: 300;
@@ -610,7 +626,7 @@ html {
 .card-info button {
   width: 10rem;
   height: 3rem;
-  background-color: #c29525;
+  background-color: #4b4b4b;
   border: none;
   font-family: "Baloo Da 2", serif;
   font-size: 1.4rem;
@@ -619,6 +635,12 @@ html {
   border-radius: 0.3rem;
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
+
+.card-info button:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Contact section */
 
 .contact {
   width: 100%;
@@ -633,24 +655,25 @@ html {
   width: 60%;
   height: 75rem;
   display: flex;
-  box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5);
 }
 
 .contact-left {
   width: 35%;
-  background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-    url(images/contact-bg.jpg) center no-repeat;
+  border-radius: 50px;
+  background: url(images/contact.jpg) center no-repeat;
   background-size: cover;
+  opacity: 0.7;
 }
 
 .contact-right {
   width: 65%;
+  border-radius: 50px;
   background-color: #eee;
   padding: 3rem 10rem 10rem 10rem;
 }
 
 .contact-heading {
-  font-family: "Baloo Da 2", serif;
+  font-family: 'Amiko', sans-serif;
   font-size: 6rem;
   font-weight: 300;
   color: #272727;
@@ -676,7 +699,7 @@ html {
   border-bottom: 0.2rem dashed #636363;
   margin: 3rem 0;
   padding: 1rem 1rem 1rem 0;
-  font-family: "Muli", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.6rem;
   color: #4b4b4b;
 }
@@ -697,7 +720,7 @@ html {
 .input-group label {
   position: absolute;
   left: 0;
-  font-family: "Baloo Da 2", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.8rem;
   color: #4b4b4b;
   text-transform: uppercase;
@@ -721,11 +744,11 @@ html {
 .submit-btn {
   width: 45rem;
   height: 5rem;
-  background-color: #c29525;
+  background-color: #cefc00;
   color: #fff;
   border: none;
   margin-top: 2rem;
-  font-family: "Muli", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -734,6 +757,15 @@ html {
   text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
+
+.submit-btn:hover{
+  background-color: #4b4b4b;
+  color: black;
+}
+
+
+/* Footer section */
+
 
 .footer {
   width: 100%;
@@ -765,13 +797,17 @@ html {
   color: #a7a7a7;
 }
 
+.social-list i:hover{
+  color: #cefc00;
+}
+
 .scroll-btn {
   position: fixed;
   right: 5rem;
   bottom: 5rem;
   width: 4.5rem;
   height: 4.5rem;
-  background-color: #e2b646;
+  background-color: #cefc00;
   display: flex;
   justify-content: center;
   align-items: center;
