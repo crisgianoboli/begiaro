@@ -282,8 +282,8 @@ html {
 
 .banner {
   position: absolute;
-  top: 30%;
-  left: 15%;
+  top: 45%;
+  left: 10%;
 }
 
 .banner h1 {
@@ -435,7 +435,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7rem 0 10rem 0;
+  padding: 7rem 0 5rem 0;
 }
 
 .section-heading {
@@ -443,7 +443,7 @@ html {
   font-size: 5rem;
   font-weight: 300;
   color: #4b4b4b;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .underline {
@@ -458,7 +458,7 @@ html {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(6, 6rem);
-  grid-row-gap: 4rem;
+  grid-row-gap: 5rem;
 }
 
 .service {
@@ -518,7 +518,7 @@ html {
 
 .service-text {
   font-family: 'Nunito', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: justify;
 }
 
@@ -549,7 +549,7 @@ html {
 .cards-wrapper {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 8rem;
+  margin-top: 4rem;
   width: 100%;
 }
 
@@ -817,6 +817,25 @@ html {
   border-radius: 0.3rem;
 }
 
+.scroll-btn-whatsapp {
+  position: fixed;
+  right: 5rem;
+  bottom: 10rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: green;
+  color: white;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+}
+
+.scroll-btn-whatsapp:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
 @media (max-width: 1500px) {
   .about-us-img-wrapper {
     grid-row: 3 / -1;
@@ -997,6 +1016,10 @@ html {
 @media (max-width: 500px) {
   html {
     font-size: 45%;
+  }
+
+  .banner{
+    top: 60%;
   }
 
   .sidebar {
