@@ -303,7 +303,7 @@ html {
   font-family: 'Nunito', sans-serif;
   font-size: 5rem;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: #fbff00;
   width: 100%;
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
@@ -313,16 +313,14 @@ html {
   animation: moveBanner 1s 0.7s forwards;
 }
 
-.banner button {
-  width: 25rem;
-  height: 7rem;
-  background-color: #fbff00;
+.banner .button {
+  width: 180px;
+  height: 30px;
+  background-color: gray;
   border: none;
   border-radius: 20px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
   text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
   cursor: pointer;
@@ -330,9 +328,20 @@ html {
   animation: moveBanner 1s 0.9s forwards;
 }
 
-.banner button:hover{
-  background-color: rgba(0,0,0,0.8);
+.button a{
   color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+
+.banner .button:hover{
+  background-color: #fbff00;
+}
+
+.button a:hover{
+  color: gray;
 }
 
 @keyframes moveBanner {
@@ -463,7 +472,7 @@ html {
 
 .service {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .service:nth-child(1) {
@@ -836,6 +845,8 @@ html {
 .scroll-btn-whatsapp:hover{
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+
 @media (max-width: 1500px) {
   .about-us-img-wrapper {
     grid-row: 3 / -1;
@@ -863,12 +874,6 @@ html {
 
   .banner p {
     font-size: 3rem;
-  }
-
-  .banner button {
-    width: 20rem;
-    height: 5rem;
-    font-size: 1.6rem;
   }
 
   .menu-link {
@@ -939,12 +944,6 @@ html {
     font-size: 2.5rem;
   }
 
-  .banner button {
-    width: 18rem;
-    height: 4rem;
-    font-size: 1.5rem;
-  }
-
   .services {
     display: flex;
     flex-direction: column;
@@ -953,7 +952,7 @@ html {
 
   .service {
     width: 40rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   .about-us-img-wrapper {
@@ -1020,6 +1019,19 @@ html {
 
   .banner{
     top: 60%;
+  }
+
+  .banner h1{
+    font-size: 7rem;
+  }
+  .banner p {
+    font-size: 4rem;
+  }
+
+
+  .button a{
+    font-size: 3rem;
+    font-weight: 200;
   }
 
   .sidebar {
